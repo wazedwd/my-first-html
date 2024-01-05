@@ -18,3 +18,12 @@ nav li a:hover{
     border-radius: 2px;
     box-shadow: 5px 5px 5px;
 }
+nav li .dim{
+    display: none;
+    background-color: antiquewhite;
+    position: absolute;
+    padding-left: 10px;
+}
+nav li:hover .dim{
+    display: block;
+}
